@@ -1,0 +1,2761 @@
+Workerman[start.php] restart 
+Workerman[start.php] is stopping ...
+Workerman[start.php] stop success
+-------------------------------------------- WORKERMAN ---------------------------------------------
+Workerman version:3.5.20          PHP version:7.0.33
+--------------------------------------------- WORKERS ----------------------------------------------
+proto   user            worker            listen                      processes    status           
+tcp     root            BusinessWorker    none                        4             [OK]            
+tcp     root            Gatway            websocket://0.0.0.0:8383    4             [OK]            
+tcp     root            Register          text://0.0.0.0:1236         1             [OK]            
+----------------------------------------------------------------------------------------------------
+Input "php start.php stop" to stop. Start success.
+
+Workerman[/www/wwwroot/im/socket/start.php] start in DEBUG mode
+------------------------------------------- WORKERMAN --------------------------------------------
+Workerman version:3.5.20          PHP version:7.3.29
+-------------------------------------------- WORKERS ---------------------------------------------
+proto   user            worker          listen                      processes    status           
+tcp     root            ImWorder        none                        4             [OK]            
+tcp     root            Gatway          websocket://0.0.0.0:8383    4             [OK]            
+tcp     root            Register        text://0.0.0.0:1236         1             [OK]            
+--------------------------------------------------------------------------------------------------
+Press Ctrl+C to stop. Start success.
+Register auth timeout (127.0.0.1). See http://doc2.workerman.net/register-auth-timeout.html
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc5LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAyNjA4LCJleHAiOjc2Mjk2MDI2MDgsIm5iZiI6MTYyOTYwMjYwOCwic3ViIjoiIiwianRpIjoiNjQ3NGVhNDk4N2UyNmRiNzE2YjQ0MjJlYTk2ZDA5OWIifQ.VShbCGkrpHMma5reUPJ1-TT0gX-98ZwsWC5mO-6xQu4
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc5LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAyNjA4LCJleHAiOjc2Mjk2MDI2MDgsIm5iZiI6MTYyOTYwMjYwOCwic3ViIjoiIiwianRpIjoiNjQ3NGVhNDk4N2UyNmRiNzE2YjQ0MjJlYTk2ZDA5OWIifQ.VShbCGkrpHMma5reUPJ1-TT0gX-98ZwsWC5mO-6xQu4
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgxLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzOTU3LCJleHAiOjc2Mjk2MDM5NTcsIm5iZiI6MTYyOTYwMzk1Nywic3ViIjoiIiwianRpIjoiNzlhMDk1MmMzMWZkMDAzZTYyYmM5MTQzNjI0OGU0MzQifQ.gfJfeS3O2XYO-_DTNiufWB0pG2iHIo82S_uEP4y_VfM
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc4LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA1NDc4LCJleHAiOjc2Mjk2MDU0NzgsIm5iZiI6MTYyOTYwNTQ3OCwic3ViIjoiIiwianRpIjoiODlkODhhNDQxZGNiODI1OTY2ZmZmZTljMWFjYTEyY2UifQ.CPsxxtT4cMqJInVqyZyjM7UIfATZc9PxidJnUsdxgfU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc5LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAyNjA4LCJleHAiOjc2Mjk2MDI2MDgsIm5iZiI6MTYyOTYwMjYwOCwic3ViIjoiIiwianRpIjoiNjQ3NGVhNDk4N2UyNmRiNzE2YjQ0MjJlYTk2ZDA5OWIifQ.VShbCGkrpHMma5reUPJ1-TT0gX-98ZwsWC5mO-6xQu4
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc5LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAyNjA4LCJleHAiOjc2Mjk2MDI2MDgsIm5iZiI6MTYyOTYwMjYwOCwic3ViIjoiIiwianRpIjoiNjQ3NGVhNDk4N2UyNmRiNzE2YjQ0MjJlYTk2ZDA5OWIifQ.VShbCGkrpHMma5reUPJ1-TT0gX-98ZwsWC5mO-6xQu4
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc5LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAyNjA4LCJleHAiOjc2Mjk2MDI2MDgsIm5iZiI6MTYyOTYwMjYwOCwic3ViIjoiIiwianRpIjoiNjQ3NGVhNDk4N2UyNmRiNzE2YjQ0MjJlYTk2ZDA5OWIifQ.VShbCGkrpHMma5reUPJ1-TT0gX-98ZwsWC5mO-6xQu4
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDc5LCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAyNjA4LCJleHAiOjc2Mjk2MDI2MDgsIm5iZiI6MTYyOTYwMjYwOCwic3ViIjoiIiwianRpIjoiNjQ3NGVhNDk4N2UyNmRiNzE2YjQ0MjJlYTk2ZDA5OWIifQ.VShbCGkrpHMma5reUPJ1-TT0gX-98ZwsWC5mO-6xQu4
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgyLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA2MjIxLCJleHAiOjc2Mjk2MDYyMjEsIm5iZiI6MTYyOTYwNjIyMSwic3ViIjoiIiwianRpIjoiNTdhZWZjMDM5OTAyMDUwMmE1Mzc3OTQ4Mzc1MjJhNDIifQ.9lfC0ldq1qdAi9VBRd9mBVHUii7l3liormeibroTp-s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjEyLCJleHAiOjc2Mjk2MDcyMTIsIm5iZiI6MTYyOTYwNzIxMiwic3ViIjoiIiwianRpIjoiYWE4MTlkN2QyZjcxZTFhZTE4MDQxMDA2M2E4M2E1ZmUifQ.fLzH_xsWBHoE-qrYERIV06wDj3dEi8T_TgJkcn799YU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjEyLCJleHAiOjc2Mjk2MDcyMTIsIm5iZiI6MTYyOTYwNzIxMiwic3ViIjoiIiwianRpIjoiYWE4MTlkN2QyZjcxZTFhZTE4MDQxMDA2M2E4M2E1ZmUifQ.fLzH_xsWBHoE-qrYERIV06wDj3dEi8T_TgJkcn799YU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjEyLCJleHAiOjc2Mjk2MDcyMTIsIm5iZiI6MTYyOTYwNzIxMiwic3ViIjoiIiwianRpIjoiYWE4MTlkN2QyZjcxZTFhZTE4MDQxMDA2M2E4M2E1ZmUifQ.fLzH_xsWBHoE-qrYERIV06wDj3dEi8T_TgJkcn799YU
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => checkToken
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgzLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjA3MjYwLCJleHAiOjc2Mjk2MDcyNjAsIm5iZiI6MTYyOTYwNzI2MCwic3ViIjoiIiwianRpIjoiZTQyOTk1ZDMxZDhlZmI0NDFiNWUwMWIxYzgxZWRiNTQifQ.YTcJVM3loAURv63_zd6qF9OMZdYroa25OACYPFmJ-7A
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
+【收到客户端消息】
+Array
+(
+    [action] => ping
+    [data] => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MDgwLCJpc3MiOiJpbV9odHRwIiwiaWF0IjoxNjI5NjAzNzAzLCJleHAiOjc2Mjk2MDM3MDMsIm5iZiI6MTYyOTYwMzcwMywic3ViIjoiIiwianRpIjoiMjcxY2IwNGJhMDc4NDdmNjY3ZmNmYWEyMGZmYzBmZDEifQ.I0KLbjUYDOXHlDtpyLxF03jcaf5hiJ6ZXZZLTUBYL8s
+)
+
